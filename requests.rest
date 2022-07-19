@@ -1,0 +1,14 @@
+GET http://localhost:5000/todos
+###
+POST http://localhost:5000/todo/new
+Content-Type: application/json
+
+{
+    "task": "get the breand2" 
+}
+
+###
+DELETE http://localhost:5000/todo/delete/62d625be8f4edeadb7c3648d
+
+###
+PUT http://localhost:5000/todo/delete/62d625be8f4edeadb7c36490
